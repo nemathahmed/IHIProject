@@ -1,0 +1,56 @@
+body {
+    background-color: #4a50d2;
+}
+
+#icon {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 50%;
+    height: 75%;
+    z-index: -1; /* Set the z-index so the image is behind other content */
+}
+
+#title {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    text-align: center;
+    font-size: 108px;
+    background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sub-title {
+    position: absolute;
+    top: 40%;
+    left: 69%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+#get-started-button {
+    position: absolute;
+    top: 65%;
+    left: 69%;
+    text-align: center;
+    font-size: 40px;
+    background-color: #A7B6E0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: none;
+}
+
+#footnote {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    text-align: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
