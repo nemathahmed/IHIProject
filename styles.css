@@ -30,6 +30,9 @@ body {
     font-size: 45px;
     font-weight: 100;
     color: #FFFFFF;
+    background: linear-gradient(to right, #FFFFFF 40%, #FFDD40 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #get-started-button {
@@ -53,4 +56,28 @@ body {
     font-size: 50px;
     color: #FFFFFF;
     font-weight: 100;
+}
+
+#category-button-container{
+    position: absolute;
+    top: 62%;
+    left: 68%;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+#category-title{
+    font-weight: 100;
+}
+
+#category-button-container button {
+    text-align: center;
+    font-size: 30px;
+    background-color: #A7B6E0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    margin: 10px;
 }
