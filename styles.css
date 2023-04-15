@@ -109,3 +109,11 @@ body {
     height: 100px;
     z-index: -1; /* Set the z-index so the image is behind other content */
 }
+
+#home-icon {
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    width: 3vw;
+    height: 5vh;
+}
