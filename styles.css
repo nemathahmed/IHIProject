@@ -4,17 +4,19 @@ body {
 
 #icon {
     position: absolute;
-    top: 10%;
-    left: 5%;
-    width: 50%;
-    height: 75%;
+    padding: 0.1em;
+    top: 5vw;
+    left: 5vh;
+    width: 50vw;
+    height: 75vh;
     z-index: -1; /* Set the z-index so the image is behind other content */
 }
 
 #title {
     position: absolute;
-    top: 20%;
-    left: 60%;
+    padding: 0.2em;
+    top: 13vw;
+    left: 90vh;
     text-align: center;
     font-size: 108px;
     background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
@@ -24,8 +26,9 @@ body {
 
 #sub-title {
     position: absolute;
-    top: 40%;
-    left: 69%;
+    padding: 0.1em;
+    top: 26vw;
+    left: 101vh;
     text-align: center;
     font-size: 45px;
     font-weight: 100;
@@ -37,8 +40,9 @@ body {
 
 #get-started-button {
     position: absolute;
-    top: 65%;
-    left: 69%;
+    padding: 0.1em;
+    top: 45vw;
+    left: 102vh;
     text-align: center;
     font-size: 40px;
     background-color: #A7B6E0;
@@ -50,18 +54,20 @@ body {
 
 #footnote {
     position: absolute;
-    bottom: 0%;
-    left: 5%;
+    padding: 0.1em;
+    bottom: 0vw;
+    left: 3vh;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: #FFFFFF;
     font-weight: 100;
 }
 
 #category-button-container{
     position: absolute;
-    top: 62%;
-    left: 68%;
+    padding: 0.1em;
+    top: 40vw;
+    left: 99vh;
     color: #FFFFFF;
     font-size: 25px;
     text-align: center;
@@ -80,4 +86,34 @@ body {
     padding: 10px 15px;
     border: none;
     margin: 10px;
+}
+
+#heading {
+    position: absolute;
+    padding: 0.1em;
+    top: 1vw;
+    left: 15vh;
+    text-align: center;
+    font-size: 32px;
+    background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading-icon {
+    position: absolute;
+    padding: 0.1em;
+    top: 1vw;
+    left: 4vh;
+    width: 100px;
+    height: 100px;
+    z-index: -1; /* Set the z-index so the image is behind other content */
+}
+
+#home-icon {
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    width: 3vw;
+    height: 5vh;
 }
