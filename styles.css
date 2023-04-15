@@ -4,6 +4,7 @@ body {
 
 #icon {
     position: absolute;
+    padding: 0.1em;
     top: 5vw;
     left: 5vh;
     width: 50vw;
@@ -13,8 +14,9 @@ body {
 
 #title {
     position: absolute;
+    padding: 0.2em;
     top: 13vw;
-    left: 87vh;
+    left: 90vh;
     text-align: center;
     font-size: 108px;
     background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
@@ -24,6 +26,7 @@ body {
 
 #sub-title {
     position: absolute;
+    padding: 0.1em;
     top: 26vw;
     left: 101vh;
     text-align: center;
@@ -37,6 +40,7 @@ body {
 
 #get-started-button {
     position: absolute;
+    padding: 0.1em;
     top: 45vw;
     left: 102vh;
     text-align: center;
@@ -50,6 +54,7 @@ body {
 
 #footnote {
     position: absolute;
+    padding: 0.1em;
     bottom: 0vw;
     left: 3vh;
     text-align: center;
@@ -60,6 +65,7 @@ body {
 
 #category-button-container{
     position: absolute;
+    padding: 0.1em;
     top: 40vw;
     left: 99vh;
     color: #FFFFFF;
@@ -84,6 +90,7 @@ body {
 
 #heading {
     position: absolute;
+    padding: 0.1em;
     top: 1vw;
     left: 15vh;
     text-align: center;
@@ -95,6 +102,7 @@ body {
 
 #heading-icon {
     position: absolute;
+    padding: 0.1em;
     top: 1vw;
     left: 4vh;
     width: 100px;
