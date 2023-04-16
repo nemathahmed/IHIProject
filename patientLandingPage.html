@@ -14,17 +14,65 @@
         </a>
     </header>
 
-    <div id="questionnaire">
-        <h2>Questionnaire</h2>
-        <p>Please fill out the following questions:</p>
+    <div style="overflow: auto;" id="questionnaire">
+        <h2>Patient</h2>
+        <p>Please complete the following questionnaire to the best of your knowledge:</p>
         <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
+            <div id="question">
+                <label id="questions" for="q1">1. Have you undergone a lipid profile test within the past 5 years to assess your cholesterol levels?</label>
+                <div id="answers">
+                    <input type="radio" id="q1-yes" name="q1" value="yes">
+                    <label for="q1-red">Yes</label>
+                    <input type="radio" id="q1-no" name="q1" value="no">
+                    <label for="q1-green">No</label>
+                </div>
+            </div>
+            <div id="question">
+                <label id="questions" for="q1">1. Have you undergone a lipid profile test within the past 5 years to assess your cholesterol levels?</label>
+                <div id="answers">
+                    <input type="radio" id="q1-yes" name="q1" value="yes">
+                    <label for="q1-red">Yes</label>
+                    <input type="radio" id="q1-no" name="q1" value="no">
+                    <label for="q1-green">No</label>
+                </div>
+            </div>
+
+            
+            <!-- <fieldset>
+                <legend>Question 1:</legend>
+                <label>
+                  <input type="radio" name="q1" value="option1">
+                  Option 1
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="q1" value="option2">
+                  Option 2
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="q1" value="option3">
+                  Option 3
+                </label>
+              </fieldset>
+            
+              <fieldset>
+                <legend>Question 2:</legend>
+                <label>
+                  <input type="radio" name="q2" value="option1">
+                  Option 1
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="q2" value="option2">
+                  Option 2
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="q2" value="option3">
+                  Option 3
+                </label>
+              </fieldset> -->
         </form>
     </div>
 

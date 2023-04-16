@@ -126,5 +126,20 @@ body {
     padding: 20px; /* add some padding inside the box */
     margin-left: 40px;
     width: 60%;
-    height: 80%;
+    height: 75%;
+}
+
+#questions {
+    background: rgba(146, 150, 243, 0.58);
+    border-radius: 25px;
+    padding: 5px;
+}
+#answers{
+    margin-top: 10px;
+    position: center;
+}
+#question {
+    font-family: 'Poppins';
+    font-weight: 10;
+    margin: 20px;
 }
