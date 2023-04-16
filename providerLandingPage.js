@@ -1,17 +1,14 @@
-document.querySelector('link[rel="icon"]').addEventListener('click', function() {
-    window.location.href = "/";
-});
 
-const radios = document.querySelectorAll('input[type="radio"]');
-
-radios.forEach(radio => {
-    radio.addEventListener('click', function() {
-        // Disable all radio buttons on click
-        radios.forEach(radio => {
-            radio.disabled = true;
-        });
-
-        // Enable the selected radio button
-        this.disabled = false;
+const accordionHeaders = document.querySelectorAll('.accordion-header');
+accordionHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+        header.classList.toggle('active');
+        const accordionBody = header.nextElementSibling;
+        if (header.classList.contains('active')) {
+            accordionBody.style.display = 'block';
+        } else {
+            accordionBody.style.display = 'none';
+        }
     });
 });
+

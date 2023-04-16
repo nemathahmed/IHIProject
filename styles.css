@@ -150,3 +150,49 @@ body {
     font-weight: 10;
     margin: 20px;
 }
+
+#outer-accordion-box {
+    height: 75vh;
+    width: 75vw;
+    background-color: #BABDF9;
+    top: 20vh;
+    position: absolute;
+    left: 2vw;
+}
+
+#accordion {
+    position: absolute;
+    top: 15vh;
+    left: 2.5vw;
+    width: 70vw;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-header h3 {
+    margin: 0;
+}
+
+.accordion-header .icon::before {
+    content: "\002B";
+    font-size: 20px;
+}
+
+.accordion-header.active .icon::before {
+    content: "\2212";
+}
+
+.accordion-body {
+    padding: 10px;
+    background-color: #f5f5f5;
+    display: none;
+}
+
+
