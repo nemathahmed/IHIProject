@@ -128,6 +128,10 @@ body {
     width: 60%;
     height: 75%;
 }
+#questionnaire label {
+    display: inline-block;
+    padding-left: 10px;
+}
 
 #questions {
     background: rgba(146, 150, 243, 0.58);
@@ -136,10 +140,14 @@ body {
 }
 #answers{
     margin-top: 10px;
+    margin-left: 60px;
     position: center;
 }
 #question {
-    font-family: 'Poppins';
-    font-weight: 10;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
     margin: 20px;
 }
+input[type="radio"] {
+    margin: 0 15px;
+  }
