@@ -6,8 +6,10 @@ accordionHeaders.forEach(header => {
         const accordionBody = header.nextElementSibling;
         if (header.classList.contains('active')) {
             accordionBody.style.display = 'block';
+            accordionBody.style.border = '15px solid #9296F3';
         } else {
             accordionBody.style.display = 'none';
+            accordionBody.style.border = '15px solid #9296F3';
         }
     });
 });
