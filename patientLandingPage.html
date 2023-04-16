@@ -16,16 +16,16 @@
     <div class="circle">
         <img src="/images/Ava.png" alt="Provider Image">
     </div>
-    <h1 id="title-greeting">Hello Ava!</h1>
-    <h3 id="subtitle-greeting">Healthy greetings</h3>
+    <h1 style = "font-family: 'Poppins', sans-serif;" id="title-greeting">Hello Ava!</h1>
+    <h3 style = "font-family: 'Poppins', sans-serif;" id="subtitle-greeting">Healthy greetings</h3>
 
     <!-- 
 	
 	⁃	What is the highest grade or year of school you completed?
 	⁃   Indicate your annual household income from all sources -->
     <div style="overflow: auto;" id="questionnaire">
-        <h2>Patient</h2>
-        <p>Please complete the following questionnaire to the best of your knowledge:</p>
+        <h2 style = "font-family: 'Poppins', sans-serif;">Patient</h2>
+        <p style = "font-family: 'Poppins', sans-serif;">Please complete the following questionnaire to the best of your knowledge:</p>
         <form>
             <div id="question">
                 <label id="questions" for="q1">1. Have you ever been diagnosed with diabetes?</label>
@@ -272,7 +272,11 @@
     </div>
 
     <div id="dialog-box-outside">
-        <button class="rounded-button">Send To Patient</button>
+        <div style="flex-direction: column;">
+            <button class="rounded-button">Fill the form</button>
+            <button class="rounded-button">View results</button>  
+        </div>
+        
         <img id="dialog-image" src="/images/providerDialogBox.png" alt="Blood test Image">
         <h4 id="dialog-footnote">Know your sugar levels before they <br> become a problem with <span id="transition-footnote">DiabPredict</span></h4>
     </div>

@@ -1,7 +1,12 @@
 body {
     background-color: #4a50d2;
 }
-
+h2 {
+    margin: 0px;
+}
+p {
+    margin: 0px;
+}
 #icon {
     position: absolute;
     padding: 0.1em;
