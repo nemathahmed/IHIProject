@@ -1,5 +1,5 @@
 const icon = document.getElementById('icon');
-icon.src = 'icon.png';
+icon.src = '/images/icon.png';
 //TODO: before last commit needs to be static/diabpredict/....
 
 const button = document.getElementById('get-started-button');

@@ -118,13 +118,6 @@ body {
     height: 5vh;
 }
 
-#provider-form {
-    position: absolute;
-    top: 10vh;
-    left: 5vw;
-    color: #FFFFFF;
-}
-
 #questionnaire {
     position: absolute;
     margin-top: 130px;
@@ -153,7 +146,7 @@ body {
 }
 
 #outer-accordion-box {
-    height: 75vh;
+    min-height: 75vh;
     width: 65vw;
     background-color: #BABDF9;
     top: 20vh;
@@ -181,6 +174,7 @@ body {
 
 .accordion-header h3 {
     margin: 0;
+    font-family: Monaco;
 }
 
 .accordion-header .icon::before {
@@ -243,7 +237,7 @@ body {
 .rounded-button {
     border-radius: 20px;
     background-color: #9FA3F2;
-    color: black;
+    color: #000000;
     padding: 10px 20px;
     border: none;
     text-align: center;
@@ -251,8 +245,9 @@ body {
     cursor: pointer;
     position: absolute;
     top: 25vh;
-    left: 8vw;
+    left: 6vw;
     font-weight: lighter;
+    font-family: Monaco;
 }
 
 .rounded-button:hover {
@@ -265,7 +260,7 @@ body {
     height: 22vh;
     top: 44vh;
     left: 5vw;
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 #dialog-footnote{
@@ -283,4 +278,18 @@ body {
     background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.question {
+    color: #000000;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2em;
+    padding-left: 2em;
 }
