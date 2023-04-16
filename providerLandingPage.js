@@ -14,3 +14,9 @@ accordionHeaders.forEach(header => {
     });
 });
 
+const button = document.querySelector('.rounded-button');
+button.addEventListener('click', function() {
+    //TODO: integration
+});
+
+

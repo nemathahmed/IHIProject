@@ -159,11 +159,12 @@ body {
     top: 20vh;
     position: absolute;
     left: 2vw;
+    border-radius: 1em;
 }
 
 #accordion {
     position: absolute;
-    top: 5vh;
+    top: 10vh;
     left: 2.5vw;
     width: 60vw;
 }
@@ -176,7 +177,6 @@ body {
     padding: 10px;
     cursor: pointer;
     border-top: 10px solid #BABDF9;
-    /*border-radius: 20px;*/
 }
 
 .accordion-header h3 {
@@ -230,3 +230,56 @@ body {
     top: 13vh;
 }
 
+#dialog-box-outside {
+    height: 75vh;
+    width: 30vw;
+    background-color: #BABDF9;
+    top: 20vh;
+    position: absolute;
+    right: 1vw;
+    border-radius: 1em;
+}
+
+.rounded-button {
+    border-radius: 20px;
+    background-color: #9FA3F2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 25vh;
+    left: 6vw;
+    font-weight: lighter;
+}
+
+.rounded-button:hover {
+    filter: brightness(90%);
+}
+
+#dialog-image{
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    top: 44vh;
+    left: 5vw;
+    border: 1px solid black;
+}
+
+#dialog-footnote{
+    position: absolute;
+    top: 63vh;
+    left: 1vw;
+    text-align: center;
+    padding: 1em;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+#transition-footnote{
+    background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
