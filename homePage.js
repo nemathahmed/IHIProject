@@ -1,5 +1,6 @@
 const icon = document.getElementById('icon');
 icon.src = 'icon.png';
+//TODO: before last commit needs to be static/diabpredict/....
 
 const button = document.getElementById('get-started-button');
 const buttonsContainer = document.getElementById('category-button-container');

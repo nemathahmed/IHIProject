@@ -118,6 +118,13 @@ body {
     height: 5vh;
 }
 
+#provider-form {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    color: #FFFFFF;
+}
+
 #questionnaire {
     position: absolute;
     margin-top: 130px;
@@ -143,6 +150,7 @@ body {
     margin-left: 60px;
     position: center;
 }
+
 #question {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
@@ -151,3 +159,138 @@ body {
 input[type="radio"] {
     margin: 0 15px;
   }
+
+
+#outer-accordion-box {
+    height: 75vh;
+    width: 65vw;
+    background-color: #BABDF9;
+    top: 20vh;
+    position: absolute;
+    left: 2vw;
+    border-radius: 1em;
+}
+
+#accordion {
+    position: absolute;
+    top: 10vh;
+    left: 2.5vw;
+    width: 60vw;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9296F3;
+    padding: 10px;
+    cursor: pointer;
+    border-top: 10px solid #BABDF9;
+}
+
+.accordion-header h3 {
+    margin: 0;
+}
+
+.accordion-header .icon::before {
+    content: "\002B";
+    font-size: 20px;
+}
+
+.accordion-header.active .icon::before {
+    content: "\2212";
+}
+
+.accordion-body {
+    padding: 10px;
+    background-color: #CCCEFF;
+    display: none;
+}
+
+.circle {
+    width: 8vw;
+    height: 8vh;
+    border-radius: 49%;
+    overflow: hidden;
+    right: 1vw;
+    position: absolute;
+    top: 10vh;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+}
+
+#title-greeting{
+    color: #FFFFFF;
+    font-size: 30px;
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+}
+
+#subtitle-greeting{
+    color: #FFFFFF;
+    font-size: 18px;
+    position: absolute;
+    font-weight: normal;
+    right: 12vw;
+    top: 13vh;
+}
+
+#dialog-box-outside {
+    height: 75vh;
+    width: 30vw;
+    background-color: #BABDF9;
+    top: 20vh;
+    position: absolute;
+    right: 1vw;
+    border-radius: 1em;
+}
+
+.rounded-button {
+    border-radius: 20px;
+    background-color: #9FA3F2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 25vh;
+    left: 8vw;
+    font-weight: lighter;
+}
+
+.rounded-button:hover {
+    filter: brightness(90%);
+}
+
+#dialog-image{
+    position: absolute;
+    width: 20vw;
+    height: 22vh;
+    top: 44vh;
+    left: 5vw;
+    border: 1px solid black;
+}
+
+#dialog-footnote{
+    position: absolute;
+    top: 63vh;
+    left: 5vw;
+    text-align: center;
+    padding: 1em;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#transition-footnote{
+    background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
