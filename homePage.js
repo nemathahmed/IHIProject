@@ -1,5 +1,5 @@
 const icon = document.getElementById('icon');
-icon.src = 'icon.png';
+icon.src = 'static/diapredict/icon.png';
 
 const button = document.getElementById('get-started-button');
 const buttonsContainer = document.getElementById('category-button-container');

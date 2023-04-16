@@ -117,3 +117,10 @@ body {
     width: 3vw;
     height: 5vh;
 }
+
+#provider-form {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    color: #FFFFFF;
+}
