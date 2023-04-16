@@ -251,7 +251,7 @@ body {
     cursor: pointer;
     position: absolute;
     top: 25vh;
-    left: 6vw;
+    left: 8vw;
     font-weight: lighter;
 }
 
@@ -262,7 +262,7 @@ body {
 #dialog-image{
     position: absolute;
     width: 20vw;
-    height: 20vh;
+    height: 22vh;
     top: 44vh;
     left: 5vw;
     border: 1px solid black;
@@ -271,11 +271,12 @@ body {
 #dialog-footnote{
     position: absolute;
     top: 63vh;
-    left: 1vw;
+    left: 5vw;
     text-align: center;
     padding: 1em;
     font-weight: lighter;
     color: #FFFFFF;
+    font-size: 20px;
 }
 
 #transition-footnote{
