@@ -145,6 +145,7 @@ body {
     margin-top: 10px;
     position: center;
 }
+
 #question {
     font-family: 'Poppins';
     font-weight: 10;
@@ -153,7 +154,7 @@ body {
 
 #outer-accordion-box {
     height: 75vh;
-    width: 75vw;
+    width: 65vw;
     background-color: #BABDF9;
     top: 20vh;
     position: absolute;
@@ -164,7 +165,7 @@ body {
     position: absolute;
     top: 5vh;
     left: 2.5vw;
-    width: 70vw;
+    width: 60vw;
 }
 
 .accordion-header {
@@ -197,4 +198,35 @@ body {
     display: none;
 }
 
+.circle {
+    width: 8vw;
+    height: 8vh;
+    border-radius: 49%;
+    overflow: hidden;
+    right: 1vw;
+    position: absolute;
+    top: 10vh;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+}
+
+#title-greeting{
+    color: #FFFFFF;
+    font-size: 30px;
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+}
+
+#subtitle-greeting{
+    color: #FFFFFF;
+    font-size: 18px;
+    position: absolute;
+    font-weight: normal;
+    right: 12vw;
+    top: 13vh;
+}
 
