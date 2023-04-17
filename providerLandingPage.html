@@ -16,15 +16,6 @@
 </div>
 <h1 id="title-greeting">Hello Dr. Roberts!</h1>
 <h3 id="subtitle-greeting">Healthy greetings</h3>
-<!--<form id="provider-form">-->
-<!--    <div>-->
-<!--        <p>Do you like ice cream?</p>-->
-<!--        <label for="yes">Yes</label>-->
-<!--        <input type="radio" id="yes" name="ice-cream" value="yes" readonly checked>-->
-<!--        <label for="no">No</label>-->
-<!--        <input type="radio" id="no" name="ice-cream" value="no" readonly>-->
-<!--    </div>-->
-<!--</form>-->
 <div id="outer-accordion-box">
     <div id="accordion">
         <div class="accordion-header">
@@ -35,56 +26,71 @@
             <h4 class="question">1. To the best of your knowledge, do you have diabetes?</h4>
             <div class="radio-buttons">
                 <label>
-                    <input type="radio" id="no" name="question1" value="no" readonly>
+                    <input type="radio"  name="question1" value="no" readonly>
                     No
                 </label>
                 <label>
-                    <input type="radio" id="prediabetes" name="question1" value="prediabetes" readonly>
+                    <input type="radio" name="question1" value="prediabetes" readonly>
                     Pre Diabetes
                 </label>
                 <label>
-                    <input type="radio" id="yes" name="question1" value="yes" readonly >
+                    <input type="radio"  name="question1" value="yes" readonly >
                     Yes
                 </label>
             </div>
             <h4 class="question">2. To the best of your knowledge, do you have high bp?</h4>
             <div class="radio-buttons">
                 <label>
-                    <input type="radio" id="no" name="question2" value="no" readonly>
+                    <input type="radio"  name="question2" value="no" readonly>
                     No
                 </label>
                 <label>
-                    <input type="radio" id="yes" name="question2" value="yes" readonly >
+                    <input type="radio"  name="question2" value="yes" readonly >
                     Yes
                 </label>
             </div>
             <h4 class="question">3. To the best of your knowledge, do you have high cholesterol?</h4>
             <div class="radio-buttons">
                 <label>
-                    <input type="radio" id="no" name="question3" value="no" readonly>
+                    <input type="radio"  name="question3" value="no" readonly>
                     No
                 </label>
                 <label>
-                    <input type="radio" id="yes" name="question3" value="yes" readonly>
+                    <input type="radio"  name="question3" value="yes" readonly>
                     Yes
                 </label>
             </div>
-            <h4 class="question">4. To the best of your knowledge, have you checked you cholesterol in the past 5 years?</h4>
+            <h4 class="question">4. To the best of your knowledge, have you checked your cholesterol in the past 5 years?</h4>
             <div class="radio-buttons">
                 <label>
-                    <input type="radio" id="no" name="question4" value="no" readonly>
+                    <input type="radio"  name="question4" value="no" readonly>
                     No
                 </label>
                 <label>
-                    <input type="radio" id="yes" name="question4" value="yes" readonly>
+                    <input type="radio"  name="question4" value="yes" readonly>
                     Yes
                 </label>
             </div>
-            <h4 class="question">5. To the best of your knowledge, input your BMI index below</h4>
+            <h4 class="question">5. To the best of your knowledge, have you ever had a stroke?</h4>
             <div class="radio-buttons">
                 <label>
-                    Enter your BMI index here:
-                    <input type="number" id="question5" name="question5" value="26.5" min="0.0" max="100.0" readonly>
+                    <input type="radio"  name="question5" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question5" value="yes" readonly >
+                    Yes
+                </label>
+            </div>
+            <h4 class="question">6. To the best of your knowledge, have you ever had coronary heart disease (CHD) or myocardial infarction (MI)?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question6" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question6" value="yes" readonly >
+                    Yes
                 </label>
             </div>
         </div>
@@ -94,7 +100,70 @@
             <span class="icon"></span>
         </div>
         <div class="accordion-body">
-            <p>Accordion Body 2</p>
+            <h4 class="question">1. To the best of your knowledge, input your BMI index below</h4>
+            <div class="radio-buttons">
+                <label>
+                    Enter your BMI index here:
+                    <input type="number" name="question1" value="26.5" min="0.0" max="100.0" readonly>
+                </label>
+            </div>
+            <h4 class="question">2. To the best of your knowledge, have you smoked more than 100 cigarettes till date?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question2" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question2" value="yes" readonly >
+                    Yes
+                </label>
+            </div>
+            <h4 class="question">3. To the best of your knowledge, have you participated in physical activity in past 30 days not including job?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question3" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question3" value="yes" readonly>
+                    Yes
+                </label>
+            </div>
+            <h4 class="question">4. Have you consumed fruits 1 or more times per day? ?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question4" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question4" value="yes" readonly>
+                    Yes
+                </label>
+            </div>
+            <h4 class="question">5. Have you consumed veggies 1 or more times per day</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question5" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question5" value="yes" readonly >
+                    Yes
+                </label>
+            </div>
+            <h4 class="question">6. Are you a heavy drinker? <br>
+                <i>(adult men having more than 14 drinks per week are considered as heavy drinkers and adult women having more than 7 drinks per week are considered heavy drinkers )
+                </i></h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question6" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question6" value="yes" readonly >
+                    Yes
+                </label>
+            </div>
         </div>
 
         <div class="accordion-header">
@@ -102,7 +171,28 @@
             <span class="icon"></span>
         </div>
         <div class="accordion-body">
-            <p>Accordion Body 3</p>
+            <h4 class="question">1. Do you have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. ?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question1" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question1" value="yes" readonly >
+                    Yes
+                </label>
+            </div>
+            <h4 class="question">2. Was there a time in the past 12 months when you needed to see a doctor but could not because of cost?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question2" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question2" value="yes" readonly >
+                    Yes
+                </label>
+            </div>
         </div>
 
         <div class="accordion-header">
@@ -110,7 +200,44 @@
             <span class="icon"></span>
         </div>
         <div class="accordion-body">
-            <p>Accordion Body 3</p>
+            <h4 class="question">1. How would you rate your general health?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question1" value="excellent" readonly>
+                    Excellent
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="verygood" readonly>
+                    Very Good
+                </label>
+                <label>
+                    <input type="radio"  name="question1" value="good" readonly >
+                    Good
+                </label>
+                <label>
+                    <input type="radio"  name="question1" value="fair" readonly >
+                    Fair
+                </label>
+                <label>
+                    <input type="radio"  name="question1" value="poor" readonly >
+                    Poor
+                </label>
+            </div>
+            <h4 class="question">3. Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?</h4>
+            <div class="radio-buttons">
+                <label>
+                    Enter number of days here:
+                    <input type="number" name="question2" value="10" min="1" max="31" readonly>
+                </label>
+            </div>
+            <h4 class="question">3. Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?
+            </h4>
+            <div class="radio-buttons">
+                <label>
+                    Enter number of days here:
+                    <input type="number" name="question3" value="10" min="1" max="31" readonly>
+                </label>
+            </div>
         </div>
 
         <div class="accordion-header">
@@ -118,7 +245,17 @@
             <span class="icon"></span>
         </div>
         <div class="accordion-body">
-            <p>Accordion Body 3</p>
+            <h4 class="question">1. Do you have serious difficulty walking or climbing stairs?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question1" value="no" readonly>
+                    No
+                </label>
+                <label>
+                    <input type="radio"  name="question1" value="yes" readonly >
+                    Yes
+                </label>
+            </div>
         </div>
 
         <div class="accordion-header">
@@ -126,7 +263,58 @@
             <span class="icon"></span>
         </div>
         <div class="accordion-body">
-            <p>Accordion Body 3</p>
+            <h4 class="question">1. Sex assigned at birth</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question1" value="female" readonly>
+                    Female
+                </label>
+                <label>
+                    <input type="radio"  name="question1" value="male" readonly >
+                    Male
+                </label>
+            </div>
+            <h4 class="question">2. Age</h4>
+            <div class="radio-buttons">
+                <label>
+                    Enter your age in years here:
+                    <input type="number" name="question2" value="25" min="1" max="100" readonly>
+                </label>
+            </div>
+            <h4 class="question">3. What is the highest level of education that you have completed?</h4>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio"  name="question3" value="1" readonly>
+                    Some high school, no diploma
+                </label>
+                <label>
+                    <input type="radio"  name="question3" value="2" readonly >
+                    High school graduate, diploma or the equivalent (GED)
+                </label>
+                <label>
+                    <input type="radio"  name="question3" value="3" readonly >
+                    Associate degree
+                </label>
+                <label>
+                    <input type="radio"  name="question3" value="4" readonly >
+                    Bachelor's degree
+                </label>
+                <label>
+                    <input type="radio"  name="question3" value="5" readonly >
+                    Master's degree
+                </label>
+                <label>
+                    <input type="radio"  name="question3" value="6" readonly >
+                    Doctorate degree
+                </label>
+            </div>
+            <h4 class="question">4. What is your annual household income from all sources?</h4>
+            <div class="radio-buttons">
+                <label>
+                    Enter your income here:
+                    <input type="number" name="question4" value="60000" min="0" max="1000000" readonly>
+                </label>
+            </div>
         </div>
     </div>
 </div>

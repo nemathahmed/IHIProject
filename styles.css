@@ -160,20 +160,23 @@ input[type="radio"] {
 
 
 #outer-accordion-box {
-    min-height: 75vh;
     width: 65vw;
     background-color: #BABDF9;
     top: 20vh;
     position: absolute;
     left: 2vw;
     border-radius: 1em;
+    height: 75vh;
+    max-height: 75vh;
+    overflow-y: auto;
 }
 
 #accordion {
     position: absolute;
-    top: 10vh;
+    top: 6vh;
     left: 2.5vw;
     width: 60vw;
+    padding-bottom: 1em;
 }
 
 .accordion-header {
