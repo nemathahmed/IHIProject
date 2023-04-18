@@ -1,0 +1,14 @@
+{% extends 'diabpredict\baseForm.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<html>
+<div style="display:block; position: absolute;margin-left: 5%; margin-right:5%;width:1000px;">
+    <form method = "POST">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type = "submit" class = "signup" style = "width:100%; margin-bottom: 5%;">Submit</button>
+    </form>
+</div>
+</html>
+{% endblock %}

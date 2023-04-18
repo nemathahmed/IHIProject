@@ -1,0 +1,312 @@
+body {
+    background-color: #4a50d2;
+}
+h2 {
+    margin: 0px;
+}
+p {
+    margin: 0px;
+}
+#icon {
+    position: absolute;
+    padding: 0.1em;
+    top: 5vw;
+    left: 5vh;
+    width: 50vw;
+    height: 75vh;
+    z-index: -1; /* Set the z-index so the image is behind other content */
+}
+
+#title {
+    position: absolute;
+    padding: 0.2em;
+    top: 13vw;
+    left: 90vh;
+    text-align: center;
+    font-size: 108px;
+    background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sub-title {
+    position: absolute;
+    padding: 0.1em;
+    top: 26vw;
+    left: 101vh;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #FFFFFF 40%, #FFDD40 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#get-started-button {
+    position: absolute;
+    padding: 0.1em;
+    top: 45vw;
+    left: 102vh;
+    text-align: center;
+    font-size: 40px;
+    background-color: #A7B6E0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: none;
+}
+
+#footnote {
+    position: absolute;
+    padding: 0.1em;
+    bottom: 0vw;
+    left: 3vh;
+    text-align: center;
+    font-size: 45px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+#category-button-container{
+    position: absolute;
+    padding: 0.1em;
+    top: 40vw;
+    left: 99vh;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+#category-title{
+    font-weight: 100;
+}
+
+#category-button-container button {
+    text-align: center;
+    font-size: 30px;
+    background-color: #A7B6E0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    margin: 10px;
+}
+
+#heading {
+    position: absolute;
+    padding: 0.1em;
+    top: 1vw;
+    left: 15vh;
+    text-align: center;
+    font-size: 32px;
+    background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#heading-icon {
+    position: absolute;
+    padding: 0.1em;
+    top: 1vw;
+    left: 4vh;
+    width: 100px;
+    height: 100px;
+    z-index: -1; /* Set the z-index so the image is behind other content */
+}
+
+#home-icon {
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    width: 3vw;
+    height: 5vh;
+}
+
+#questionnaire {
+    position: absolute;
+    margin-top: 130px;
+    background-color: #BABDF9; /* set the background color to a light purple */
+    border: 1px solid #BABDF9; /* add a border around the box */
+    padding: 20px; /* add some padding inside the box */
+    margin-left: 40px;
+    width: 60%;
+    height: 75%;
+}
+#questionnaire label {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#questions {
+    background: rgba(146, 150, 243, 0.58);
+    border-radius: 25px;
+    padding: 5px;
+}
+#answers{
+    margin-top: 10px;
+    margin-left: 60px;
+    position: center;
+}
+
+#question {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin: 20px;
+}
+input[type="radio"] {
+    margin: 0 15px;
+  }
+
+
+#outer-accordion-box {
+    width: 65vw;
+    background-color: #BABDF9;
+    top: 20vh;
+    position: absolute;
+    left: 2vw;
+    border-radius: 1em;
+    height: 75vh;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+#accordion {
+    position: absolute;
+    top: 6vh;
+    left: 2.5vw;
+    width: 60vw;
+    padding-bottom: 1em;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9296F3;
+    padding: 10px;
+    cursor: pointer;
+    border-top: 10px solid #BABDF9;
+}
+
+.accordion-header h3 {
+    margin: 0;
+    font-family: Monaco;
+}
+
+.accordion-header .icon::before {
+    content: "\002B";
+    font-size: 20px;
+}
+
+.accordion-header.active .icon::before {
+    content: "\2212";
+}
+
+.accordion-body {
+    padding: 10px;
+    background-color: #CCCEFF;
+    display: none;
+}
+
+.circle {
+    width: 8vw;
+    height: 8vh;
+    border-radius: 49%;
+    overflow: hidden;
+    right: 1vw;
+    position: absolute;
+    top: 10vh;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+}
+
+#title-greeting{
+    color: #FFFFFF;
+    font-size: 30px;
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+}
+
+#subtitle-greeting{
+    color: #FFFFFF;
+    font-size: 18px;
+    position: absolute;
+    font-weight: normal;
+    right: 12vw;
+    top: 13vh;
+}
+
+#dialog-box-outside {
+    height: 75vh;
+    width: 30vw;
+    background-color: #BABDF9;
+    top: 20vh;
+    position: absolute;
+    right: 1vw;
+    border-radius: 1em;
+}
+
+.rounded-button {
+    border-radius: 20px;
+    background-color: #9FA3F2;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 25vh;
+    left: 6vw;
+    font-weight: lighter;
+    font-family: Monaco;
+}
+
+.rounded-button:hover {
+    filter: brightness(90%);
+}
+
+#dialog-image{
+    position: absolute;
+    width: 20vw;
+    height: 22vh;
+    top: 44vh;
+    left: 5vw;
+    border: 1px solid #000000;
+}
+
+#dialog-footnote{
+    position: absolute;
+    top: 63vh;
+    left: 5vw;
+    text-align: center;
+    padding: 1em;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#transition-footnote{
+    background: linear-gradient(to right, #FFFFFF 30%, #FFDD40 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.question {
+    color: #000000;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2em;
+    padding-left: 2em;
+}
