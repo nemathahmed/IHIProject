@@ -45,6 +45,143 @@ Our project aims to predict whether a patient has diabetes by using the Random F
 #### Deployment:
 
 
+We have built our project using Django!
+First let's install such dependencies.
+
+README:
+
+To install the required packages, please follow the instructions below:
+
+1. Crispy Forms:
+   - You can install crispy forms by running the following command in your terminal or command prompt:
+    
+    ```
+    pip install django-crispy-forms
+    ```
+   - After installing, you need to add crispy forms to your installed apps in your Django project's `settings.py` file:
+   
+    ```
+    INSTALLED_APPS = [
+        # ...
+        'crispy_forms',
+        # ...
+    ]
+    ```
+   - Finally, you need to add crispy forms' template pack to your project's templates in the same `settings.py` file:
+   
+    ```
+    CRISPY_TEMPLATE_PACK = 'bootstrap4'
+    ```
+
+2. Joblib version - 1.2:
+   - You can install joblib version 1.2 by running the following command in your terminal or command prompt:
+   
+    ```
+    pip install joblib==1.2
+    ```
+    
+   - This will install joblib version 1.2 to your Python environment.
+
+That's it! Now you have installed the required packages, and you can use crispy forms and joblib version 1.2 in your Django project.
+
+To start a Django project, you can follow these steps:
+
+1. Install Django: First, you need to install Django on your system. You can do this by running the following command in your terminal or command prompt:
+
+
+```
+pip install Django
+```
+
+
+2. Create a project: Once you have installed Django, you can navigate to the project folder and run the following command:
+
+
+```
+django-admin startproject diabpredict .
+```
+3. Creates initial migration
+
+
+```
+python manage.py makemigrations diabpredict
+```
+
+4. Migrates all the models
+
+```
+python manage.py  migrate
+```
+
+
+5. Start the development server: Navigate to the project directory that was created and run the following command:
+
+```
+python manage.py runserver
+```
+
+
+This will start the development server at `http://127.0.0.1:8000/homePage.html`.
+
+Inside the project folder 
+
+
+1. `models.py`: Models are used to define the structure of your database tables. You can create a model by defining a class in the `models.py` file of your app.
+
+
+2. `views.py`: Views are used to define the logic behind your app's functionality. You can create a view by defining a function in the `views.py` file of your app.
+
+
+3. `templates`: Templates are used to define the layout and structure of your app's pages. You can create a template by creating an HTML file in the `templates` directory of your app.
+
+
+---- 
+
+To work with the notebooks in `\models` folder install the following dependencies in your local environment.
+
+README:
+
+To install the required libraries, please follow the instructions below:
+
+1. Pandas:
+   - You can install Pandas by running the following command in your terminal or command prompt:
+    
+    ```
+    pip install pandas
+    ```
+   - After installing, you can import Pandas in your Python code:
+   
+    ```
+    import pandas as pd
+    ```
+
+2. Numpy:
+   - You can install Numpy by running the following command in your terminal or command prompt:
+   
+    ```
+    pip install numpy
+    ```
+    
+   - After installing, you can import Numpy in your Python code:
+   
+    ```
+    import numpy as np
+    ```
+
+3. Matplotlib:
+   - You can install Matplotlib by running the following command in your terminal or command prompt:
+   
+    ```
+    pip install matplotlib
+    ```
+    
+   - After installing, you can import Matplotlib in your Python code:
+   
+    ```
+    import matplotlib.pyplot as plt
+    ```
+
+That's it! Now you have installed the required libraries, and you can use Pandas, Numpy, and Matplotlib in your notebook.
 
 
 
