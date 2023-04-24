@@ -24,10 +24,11 @@ The utilized dataset contains data collected by the Centers for Disease Control 
 #### Tools and Technologies:
 Our project aims to predict whether a patient has diabetes by using the Random Forest algorithm, which can handle large datasets and provide precise predictions with minimal overfitting. Python and its libraries, such as NumPy, Pandas, and SciKitLearn, will be used to build and optimize the prediction model. We will create a web application using Python's Django framework, with HTML, CSS, and JavaScript used to design a user-friendly interface for healthcare providers to input patient data. The SQLite database engine will be used to store patient-related data. We plan to deploy our website using PythonAnywhere or Heroku, providing healthcare providers with an accurate and easy-to-use tool to enhance diabetes diagnosis and management. 
 
-![image](https://github.com/yingtaoluo/Spatial-Temporal-Attention-Network-for-POI-Recommendation/blob/master/unit_embedding.png)
+![image](https://github.com/nemathahmed/IHIProject/blob/main/images/Table1.png)
 
 #### Architecture Diagram:
 
+![image](https://github.com/nemathahmed/IHIProject/blob/main/images/architecture_diagram.png)
 
 #### UI Snippets:
 
@@ -43,6 +44,13 @@ Our project aims to predict whether a patient has diabetes by using the Random F
 
 
 ## References
-- Hasan, Md Kamrul, Md Ashraful Alam, Dola Das, Eklas Hossain, and Mahmudul Hasan. "Diabetes prediction using ensembling of different machine learning classifiers." IEEE Access 8 (2020): 76516-76531
-- Semigran, Hannah L., Jeffrey A. Linder, Courtney Gidengil, and Ateev Mehrotra. "Evaluation of symptom checkers for self diagnosis and triage: audit study." bmj 351 (2015).
-- Gräf, M., Knitza, J., Leipe, J., Krusche, M., Welcker, M., Kuhn, S., ... & Callhoff, J. (2022). Comparison of physician and artificial intelligence-based symptom checker diagnostic accuracy. Rheumatology International, 42(12), 2167-2176.
+- Al Yousef, M. Z., Yasky, A. F., Al Shammari, R., & Ferwana, M. S. (2022). Early prediction of diabetes by applying data mining techniques: A retrospective cohort study. Medicine, 101(29), e29588. https://doi.org/10.1097/MD.0000000000029588  
+- Campbell, H. (n.d.). Costs and consequences of not treating diabetes. Blog. Retrieved March 5, 2023, from https://catalyst.phrma.org/costs-and-consequences-of-not-treating-diabetes#:~:text=If%20left%20untreated%2C%20diabetes%20can,than%20for%20adults%20without%20diabetes. 
+- CDC - BRFSS - Survey Data & Documentation. 29 Aug. 2022, https://www.cdc.gov/brfss/data_documentation/index.htm 
+- Centers for Disease Control and Prevention. (2022, December 30). Diabetes symptoms. Centers for Disease Control and Prevention. Retrieved March 5, 2023, from https://www.cdc.gov/diabetes/basics/symptoms.html 
+- Centers for Disease Control and Prevention. (2023, January 18). FASTSTATS - leading causes of death. Centers for Disease Control and Prevention. Retrieved March 5, 2023, from https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm 
+- Dinh, A., Miertschin, S., Young, A., & Mohanty, S. D. (2019). A data-driven approach to predicting diabetes and cardiovascular disease with machine learning. In BMC Medical Informatics and Decision Making (Vol. 19, Issue 1). Springer Science and Business Media LLC. https://doi.org/10.1186/s12911-019-0918-5 
+- Jian, Y., Pasquier, M., Sagahyroon, A., & Aloul, F. (2021). A Machine Learning Approach to Predicting Diabetes Complications. Healthcare (Basel, Switzerland), 9(12), 1712. https://doi.org/10.3390/healthcare9121712 
+- Teboul, Alex. Diabetes Health Indicators Dataset. https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset.  
+- U.S. Department of Health and Human Services. (n.d.). What is diabetes? - niddk. National Institute of Diabetes and Digestive and Kidney Diseases. Retrieved March 5, 2023, from https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes 
+- Varma, Kucharlapati & Panda, Bhavani. (2019). Comparative analysis of Predicting Diabetes Using Machine Learning Techniques. 6. 522-530. https://www.researchgate.net/publication/338402143_Comparative_analysis_of_Predicting_Diabetes_Using_Machine_Learning_Techniques/citation/download  
