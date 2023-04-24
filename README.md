@@ -30,6 +30,17 @@ Our project aims to predict whether a patient has diabetes by using the Random F
 
 #### UI Snippets:
 
+##### Landing Page:
+![image](https://github.com/nemathahmed/IHIProject/blob/main/images/HomePage.png)
+
+##### Patient Portal
+![image](https://github.com/nemathahmed/IHIProject/blob/main/images/PatientPortal.png)
+
+##### Provider Portal
+
+![image](https://github.com/nemathahmed/IHIProject/blob/main/images/ProviderPortal1.png)
+![image](https://github.com/nemathahmed/IHIProject/blob/main/images/ProviderPortal2.png)
+
 
 #### Deployment:
 
