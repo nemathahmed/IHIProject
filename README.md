@@ -1,6 +1,6 @@
 # IHIProject (Project Readme)
 
-## FHIRed Up
+## DIABPREDICT
 
 ## Team Members & Roles:
 - Nemath Ahmed (nshaik6) - Backend Development / ML
@@ -16,9 +16,7 @@ Diabetes is one of the seventh leading causes of death in the United States. It 
 
 #### Proposed Solution:
 To build a tool that predicts whether a person is suffering from diabetes or not, we have develop a machine learning model that can analyze input features such as BMI, age, gender, general health, etc., and make a prediction based on those features. 
-
 To do this, we have utilized [Diabetes Health Indicators](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset) dataset from Kaggle, pre-processed it and used it to train and evaluate our machine-learning model.A web user interface has been built on top of it to allow users to input their relevant information and receive a prediction about whether they have diabetes. 
-
 The utilized dataset contains data collected by the Centers for Disease Control and Prevention (CDC) annually via telephone survey. We will be predicting the Diabetes_012 column based on the other columns in the dataset. The dataset is derived from the CDC's BRFSS2015 survey and consists of 253,680 survey responses. The target variable, Diabetes_012, has three classes: value of 0 indicates either no diabetes or diabetes only during pregnancy, value of 1 indicates prediabetes, and value of 2 indicates diabetes. The dataset includes 21 feature variables that have been used in our analysis.
 
 #### Tools and Technologies:
@@ -33,17 +31,14 @@ Our project aims to predict whether a patient has diabetes by using the Random F
 #### UI Snippets:
 
 
-
-### Potential Blockers (provide mitigation ideas if possible):
-- Lack of high-quality data: The quality and quantity of available data can impact the accuracy of the model.
-- Bias in data: The data used for training the model must be diverse and representative of the population to avoid biased predictions.
-- Model interpretability: The model's predictions must be interpretable to healthcare professionals and patients so that they can understand how the risk factors contribute to the prediction.
+#### Deployment:
 
 
 
 
 
-## References
+
+### References
 - Al Yousef, M. Z., Yasky, A. F., Al Shammari, R., & Ferwana, M. S. (2022). Early prediction of diabetes by applying data mining techniques: A retrospective cohort study. Medicine, 101(29), e29588. https://doi.org/10.1097/MD.0000000000029588  
 - Campbell, H. (n.d.). Costs and consequences of not treating diabetes. Blog. Retrieved March 5, 2023, from https://catalyst.phrma.org/costs-and-consequences-of-not-treating-diabetes#:~:text=If%20left%20untreated%2C%20diabetes%20can,than%20for%20adults%20without%20diabetes. 
 - CDC - BRFSS - Survey Data & Documentation. 29 Aug. 2022, https://www.cdc.gov/brfss/data_documentation/index.htm 
